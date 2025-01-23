@@ -14,10 +14,6 @@ summary: "I developed a bank database application that enables users to add, sea
 ---
 
   <img width="800px" class="img-fluid" src="../img/BankDatabase1.png">
-  <img width="800px" class="img-fluid" src="../img/BankDatabase3.png">
-  <img width="800px" class="img-fluid" src="../img/BankDatabase4.png">
-  <img width="800px" class="img-fluid" src="../img/BankDatabase5.png">
-  <img width="800px" class="img-fluid" src="../img/BankDatabase6.png">
 
 This Bank Database Application is a solo project I completed in my Program Structure course (ICS 212) at the University of Hawaiʻi at Mānoa. I designed and implemented a user-friendly interface and database functions, allowing users to add, search, delete, and view customer records. I developed the application in both C and C++ using the UNIX operating system.
 
@@ -135,5 +131,21 @@ int addRecord(struct record ** startAddress, int uaccountno, char uname[], char 
     return result;
 }
 ```
+
+This is the printall function of the Bank Database Application.
+
+  <img width="800px" class="img-fluid" src="../img/BankDatabase3.png">
+
+This is the find function and delete function of the Bank Database Application.
+
+  <img width="800px" class="img-fluid" src="../img/BankDatabase4.png">
+
+The customer record has been deleted.
+
+  <img width="800px" class="img-fluid" src="../img/BankDatabase5.png">
+
+The user quits the program.
+
+  <img width="800px" class="img-fluid" src="../img/BankDatabase6.png">
 
 To see the code for my Bank Database Application in C, click <a href="https://github.com/jaylin-m/ICS-212/blob/main/project1.tar.gz">here</a>. To see the code for my Bank Database Application in C++, click <a href="https://github.com/jaylin-m/ICS-212/blob/main/project2.tar.gz">here</a>.
