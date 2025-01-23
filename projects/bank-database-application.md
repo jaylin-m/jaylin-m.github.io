@@ -13,12 +13,11 @@ labels:
 summary: "I developed a bank database application that enables users to add, search, delete, and view customer records in both C and C++."
 ---
 
-  <img width="500px" class="img-fluid" src="../img/BankDatabase1.png">
-  <img width="500px" class="img-fluid" src="../img/BankDatabase2.png">
-  <img width="500px" class="img-fluid" src="../img/BankDatabase3.png">
-  <img width="500px" class="img-fluid" src="../img/BankDatabase4.png">
-  <img width="500px" class="img-fluid" src="../img/BankDatabase5.png">
-  <img class="img-fluid" src="../img/BankDatabase6.png">
+  <img width="800px" class="img-fluid" src="../img/BankDatabase1.png">
+  <img width="800px" class="img-fluid" src="../img/BankDatabase3.png">
+  <img width="800px" class="img-fluid" src="../img/BankDatabase4.png">
+  <img width="800px" class="img-fluid" src="../img/BankDatabase5.png">
+  <img width="800px" class="img-fluid" src="../img/BankDatabase6.png">
 
 This Bank Database Application is a solo project I completed in my Program Structure course (ICS 212) at the University of Hawaiʻi at Mānoa. I designed and implemented a user-friendly interface and database functions, allowing users to add, search, delete, and view customer records. I developed the application in both C and C++ using the UNIX operating system.
 
@@ -137,4 +136,4 @@ int addRecord(struct record ** startAddress, int uaccountno, char uname[], char 
 }
 ```
 
-To see the code for my Bank Database Application in C, click here. To see the code for my Bank Database Application in C++, click here.
+To see the code for my Bank Database Application in C, click <a href="https://github.com/jaylin-m/ICS-212/blob/main/project1.tar.gz">here</a>. To see the code for my Bank Database Application in C++, click <a href="https://github.com/jaylin-m/ICS-212/blob/main/project2.tar.gz">here</a>.
