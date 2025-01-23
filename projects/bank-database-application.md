@@ -13,11 +13,11 @@ labels:
 summary: "I developed a bank database application that enables users to add, search, delete, and view customer records in both C and C++."
 ---
 
-  <img class="img-fluid" src="../img/BankDatabase1.png">
-  <img class="img-fluid" src="../img/BankDatabase2.png">
-  <img class="img-fluid" src="../img/BankDatabase3.png">
-  <img class="img-fluid" src="../img/BankDatabase4.png">
-  <img class="img-fluid" src="../img/BankDatabase5.png">
+  <img width="800px" class="img-fluid" src="../img/BankDatabase1.png">
+  <img class="800px" src="../img/BankDatabase2.png">
+  <img class="800px" src="../img/BankDatabase3.png">
+  <img class="800px" src="../img/BankDatabase4.png">
+  <img class="800px" src="../img/BankDatabase5.png">
   <img class="img-fluid" src="../img/BankDatabase6.png">
   <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
   <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
