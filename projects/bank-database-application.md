@@ -19,6 +19,8 @@ This Bank Database Application is a solo project I completed in my Program Struc
 
 To efficiently manage the build process, I created a Makefile to handle the creation and updating of object files and the executable, including the option to run the program with or without debug mode through specified rules. I initially programmed the project in C and then ported it to C++. For the C project, I created header files containing the data structure for records and the function prototypes for the database functions. For the C++ project, I created header files containing the data structure for records and the class definition for managing records. The source files are separately organized for the user interface and database functions.
 
+I learned how to approach various challenges I encountered while coding in C, including ensuring that no memory allocated on the heap was lost, inserting a new node into a linked list without disrupting the rest of the list, and effectively using pointers in a larger project with over a thousand lines of code. While translating the project from C to C++, I learned how to accomplish the same tasks in C++ and gained experience with implementing a copy constructor, overloading the assignment operator (operator=), and overloading the stream insertion operator (operator<<).
+
 Here is the code for the add function of the Bank Database Application in C:
 
 ```cpp
@@ -132,19 +134,19 @@ int addRecord(struct record ** startAddress, int uaccountno, char uname[], char 
 }
 ```
 
-This is the printall function of the Bank Database Application.
+The printall function displays all customer records in the database.
 
   <img width="800px" class="img-fluid" src="../img/BankDatabase3.png">
 
-This is the find function and delete function of the Bank Database Application.
+The find function retrieves the customer record for the given account number, and the delete function removes the customer record associated with the provided account number.
 
   <img width="800px" class="img-fluid" src="../img/BankDatabase4.png">
 
-The customer record has been deleted.
+The image below shows that the customer record was deleted.
 
   <img width="800px" class="img-fluid" src="../img/BankDatabase5.png">
 
-The user quits the program.
+The quit function allows the user to exit the program.
 
   <img width="800px" class="img-fluid" src="../img/BankDatabase6.png">
 
