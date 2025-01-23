@@ -9,7 +9,7 @@ labels:
   - C++
   - UNIX
   - Makefile
-summary: "I developed a Pokedex program that uses each Pokémon's nickname as a key to access and display their information: name, type, and weight."
+summary: "I developed a Pokedex program in C++ that uses each Pokémon's nickname as a key to access and display their information: name, type, and weight."
 ---
 
 <div class="text-center p-4">
