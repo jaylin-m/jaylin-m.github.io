@@ -13,7 +13,11 @@ labels:
 
 ## Innovation, Literally at One's Fingertips
 
-Through software engineering, innovation is quite literally at one’s fingertips. Many ideas that once seemed impossible or unimaginable have been made a reality. For instance, the ability to register for courses at a university through a website, rather than in person or by mail, has made the process faster and more efficient. Similarly, buying plane tickets and choosing seats online instead of at a counter has revolutionized the travel experience. Perhaps most notably, social media apps allow us to connect with millions of people across the world in an instant—something that would have seemed unthinkable just a few decades ago. These are just a few examples of how software applications have dramatically increased convenience and efficiency in our daily lives.
+Through software engineering, innovation is quite literally at one’s fingertips. Many ideas that once seemed impossible or unimaginable have been made a reality.
+
+For instance, the ability to register for courses at a university through a website, rather than in person or by mail, has made the process faster and more efficient. Similarly, buying plane tickets and choosing seats online instead of at a counter has revolutionized the travel experience.
+
+Perhaps most notably, social media apps allow us to connect with millions of people across the world in an instant—something that would have seemed unthinkable just a few decades ago. These are just a few examples of how software applications have dramatically increased convenience and efficiency in our daily lives.
 
 *As Anna Eshoo once said, "Innovation is the calling card of the future."*
 
@@ -21,7 +25,11 @@ Through software engineering, innovation is quite literally at one’s fingertip
 
 <img width="800px" class="img-fluid" src="../img/innovation-at-the-fingertips-2.webp">
 
-Software applications transform ideas into real-world solutions, and software engineering is about crafting solutions that are efficient and user-friendly. Software engineering also has creative potential. It’s not just about solving problems but also about creating something that can express ideas or entertain. The ability to build applications that can make a tangible difference in people’s lives motivates me to continue developing my skills in this field. I am interested in learning about building and deploying web applications and optimizing code for performance.
+Software applications transform ideas into real-world solutions, and software engineering is about crafting solutions that are efficient and user-friendly.
+
+Software engineering also has creative potential. It’s not just about solving problems but also about creating something that can express ideas or entertain.
+
+The ability to build applications that can make a tangible difference in people’s lives motivates me to continue developing my skills in this field. I am interested in learning about building and deploying web applications and optimizing code for performance.
 
 ## Skills and Experiences I Hope to Develop
 
