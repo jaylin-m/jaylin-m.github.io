@@ -11,9 +11,8 @@ labels:
 summary: "I implemented a Sudoku solver application capable of finding solutions to Sudoku puzzles, written in Java."
 ---
 
-  <img class="img-fluid" src="../img/Sudoku1.png">
-  <img class="img-fluid" src="../img/Sudoku2.png">
-  <img width="800px" class="img-fluid" src="../img/Sudoku3.png">
+  <img width="300px" class="img-fluid" src="../img/Sudoku1.png"> <img width="300px" class="img-fluid" src="../img/Sudoku2.png">
+  <img width="300px" class="img-fluid" src="../img/Sudoku3.png">
 
 This Sudoku solver application is a solo project I completed in my Introduction to Computer Science II course (ICS 211) at the University of Hawaiʻi at Mānoa. The goal for each method was outlined, and I worked on implementing the code for each method on my own. I developed the application in Java on the Eclipse IDE. The application checks if the puzzle obeys all Sudoku rules and validates the puzzle's correctness. It systematically fills in blank cells and ensure compliance with Sudoku constraints. I also created a user-friendly output format for displaying the Sudoku puzzles and solutions to enhance readability.
 
