@@ -12,40 +12,67 @@ labels:
   - Answers
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="700px" class="img-fluid" src="../img/ask-smart-questions,-get-smart-answers/questions.png">
 
 ## The Importance of Asking Smart Questions for Software Engineers
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Asking smart questions is a critical skill for software engineers because it allows them to efficiently seek help from forums, email lists, newsgroups, or chat boards to resolve issues. A smart question demonstrates the querent’s effort to research the problem beforehand, such as searching relevant resources, attempting possible solutions, and providing a clear explanation of the issue. This not only saves time for both the querent and the respondent but also encourages knowledgeable experts to engage and take the time out of their busy day to help, since they can quickly understand the problem and see that the querent has made an effort to solve it. By presenting a well-prepared, thoughtful question that includes background information and a clear goal, a software engineer increases their chances of receiving helpful, relevant responses. Asking smart questions fosters effective communication and problem-solving, benefiting both the querent and the larger development community.
 
-## Smart Question
+## Example of a Smart Question
 
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
+This querent, who titled their question <a href="https://stackoverflow.com/questions/79375931/storing-and-retrieving-number-from-c23-experimental-simd-gives-random-result">*Storing and retrieving number from C++23 experimental simd gives random result*</a>, is encountering unpredictable behavior in their C++ code. Identical printf functions print different numbers, with the values varying each time the app is run — sometimes positive, sometimes negative. When they use vfloat4 instead of vint4, all the printed numbers are zero. The querent is unsure where to begin debugging.
 
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+This is an example of a smart question because, first, it uses a meaningful and specific subject header. Second, it's written in clear, grammatical, and correctly spelled language. Third, it describes the symptoms of the bug carefully and clearly, as well as the environment in which it occurs, including the compiler, OS, and CPU. Fourth, it describes the diagnostic steps the querent took to try to resolve the issue themselves before asking the question. Fifth, the querent uses appropriate tags in their post that align with the topic of their question. Lastly, the user also provides a minimal, bug-demonstrating test case that illustrates the problem, offering just enough code to show the undesirable behavior without including unnecessary lines or excessive details.
 
-```
-Q: python date of the previous month
-
-```
-
-## Not Smart Question
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
+The querent provides a minimal amount of code to test the problem:
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
+#include <experimental/simd>
+
+namespace stdx = std::experimental;
+
+using vfloat4 = stdx::fixed_size_simd<float, 4>;
+using vint4 = stdx::fixed_size_simd<int, 4>;
+
+inline void print_vint4(vint4 vi4)
+{
+    printf("%i %i %i %i\n", vi4[0], vi4[1], vi4[2], vi4[3]);
+}
+
+int main()
+{
+    vint4 _v = 4;
+    printf(">> %i\n", _v[0]);
+    printf(">> %i\n", _v[0]);
+    print_vint4(_v);
+    return 1;
+}
+```
+
+## Example of a Not Smart Question
+
+This querent, who titled their question <a href="https://stackoverflow.com/questions/79400124/using-useeffect-keep-on-calling-api">*using useEffect keep on calling api*</a>, is trying to call a REST API using useEffect, but the API keeps being called continuously.
+
+This is an example of a not smart question because, first, the subject header is not meaningful or specific — it’s vague and lacks context. Second, it's not written in clear, grammatical, and correctly spelled language. Third, it does not describe the environment in which it occurs. Fourth, it does not describe the diagnostic steps the querent took to try to resolve the issue themselves before asking a question. Lastly, the user does not provide a sufficient bug-demonstrating test case that illustrates the problem. They only mention that 'user' is from createContext, but do not provide any further context or explanation.
+
+A portion of the code the querent provided:
 
 ```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const recievedUser = await Apis.getUser(user);
+        setProfile(recievedUser.data);
+        if (recievedUser.data) {
+          // console.log(imageUrl)
+          fetchImage();
+        }
+      } catch (error) {
+        console.log(error.response);
+      }
+    };
+```
 
-## The foolproof way to get ignored.
+## Asking Smart Questions: A Path to Clear and Effective Solutions
 
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+I gained insight into what it means to ask a smart question. A smart question reflects that the person asking has already attempted to find an answer using various resources, such as searching the archives of relevant forums or mailing lists, browsing the web, or reading manuals and FAQs. It also involves posting the question in an appropriate, on-topic forum. Asking a smart question requires using a meaningful, specific subject header that immediately conveys the issue at hand, allowing the respondent to understand the problem at a glance. Writing clearly, with correct grammar and spelling, is essential, so is being precise and informative about the problem. When describing the issue, it's important to explain the symptoms of the problem or bug in detail, including the environment in which it occurs, such as the machine, OS, or application. The questioner should also describe the research they conducted before asking, to demonstrate that they made an effort to find the answer independently. They should also describe the diagnostic steps they took to troubleshoot the issue, and any recent changes to their system or software configuration. The problem should be described in chronological order, and the focus should be on describing the desired goal rather than the specific steps taken to reach it. Following these guidelines ensures that you ask a smart question, which in turn increases the likelihood of receiving smart, helpful answers.
