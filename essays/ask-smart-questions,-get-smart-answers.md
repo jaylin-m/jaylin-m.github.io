@@ -12,6 +12,7 @@ labels:
   - Answers
 ---
 
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
 ## The Importance of Asking Smart Questions for Software Engineers
 
