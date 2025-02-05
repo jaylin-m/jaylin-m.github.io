@@ -20,8 +20,6 @@ Asking smart questions is a critical skill for software engineers because it all
 
 ## Example of a Smart Question
 
-<img width="700px" class="img-fluid" src="../img/ask-smart-questions,-get-smart-answers/stackoverflow.png">
-
 This querent, who titled their question <a href="https://stackoverflow.com/questions/79375931/storing-and-retrieving-number-from-c23-experimental-simd-gives-random-result">*Storing and retrieving number from C++23 experimental simd gives random result*</a>, is encountering unpredictable behavior in their C++ code. Identical printf functions print different numbers, with the values varying each time the app is run — sometimes positive, sometimes negative. When they use vfloat4 instead of vint4, all the printed numbers are zero. The querent is unsure where to begin debugging.
 
 This is an example of a smart question because, first, it uses a meaningful and specific subject header. Second, it's written in clear, grammatical, and correctly spelled language. Third, it describes the symptoms of the bug carefully and clearly, as well as the environment in which it occurs, including the compiler, OS, and CPU. Fourth, it describes the diagnostic steps the querent took to try to resolve the issue themselves before asking the question. Fifth, the querent uses appropriate tags in their post that align with the topic of their question. Lastly, the user also provides a minimal, bug-demonstrating test case that illustrates the problem, offering just enough code to show the undesirable behavior without including unnecessary lines or excessive details.
