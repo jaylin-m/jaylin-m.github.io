@@ -21,7 +21,7 @@ To efficiently manage the build process, I created a Makefile to handle the crea
 
 I learned how to approach various challenges I encountered while coding in C, including ensuring that no memory allocated on the heap was lost, inserting a new node into a linked list without disrupting the rest of the list, and effectively using pointers in a larger project with over a thousand lines of code. While translating the project from C to C++, I learned how to accomplish the same tasks in C++ and gained experience with implementing a copy constructor, overloading the assignment operator (operator=), and overloading the stream insertion operator (operator<<).
 
-Here is the code for the add function of the Bank Database Application in C:
+Here is a portion of the code for the add function of the Bank Database Application in C:
 
 ```cpp
 int addRecord(struct record ** startAddress, int uaccountno, char uname[], char uaddress[])
