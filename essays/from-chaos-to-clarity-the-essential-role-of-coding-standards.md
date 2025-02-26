@@ -11,7 +11,7 @@ labels:
   - ESLint
 ---
 
-<img width="800px" class="img-fluid" src="../img/from-chaos-to-clarity:-the-essential-role-of-coding-standards/ESLint.png">
+<img width="800px" class="img-fluid" src="../img/from-chaos-to-clarity-the-essential-role-of-coding-standards/ESLint.png">
 
 ## The Importance of Readable Code
 
