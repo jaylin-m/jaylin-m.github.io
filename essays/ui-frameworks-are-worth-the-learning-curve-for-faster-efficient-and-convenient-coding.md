@@ -12,13 +12,13 @@ labels:
   - CSS
 ---
 
-<img width="800px" class="img-fluid" src="../img/ui-frameworks-are-worth-the-learning-curve-for-faster-efficient-and-convenient-coding/bootstrap-logo.png">
+<img width="200px" class="img-fluid" src="../img/ui-frameworks-are-worth-the-learning-curve-for-faster-efficient-and-convenient-coding/bootstrap-logo.png">
 
 ## UI Frameworks can be Difficult and Confusing at First
 
 When first encountering a UI framework like Bootstrap 5, it can feel overwhelming. The confusing syntax can be intimidating for beginners, especially when transitioning from writing raw HTML and CSS. The framework’s syntax and structure may seem complicated at first, making it feel like a new programming language altogether. Understanding grid systems, responsive designs, and how to override default styles requires a certain level of commitment and learning. However, once the basic concepts are grasped, developers can quickly see the advantages.
 
-## Developing Websites with Efficiency and Speed**
+## Developing Websites with Efficiency and Speed
 
 <img width="800px" class="img-fluid" src="../img/ui-frameworks-are-worth-the-learning-curve-for-faster-efficient-and-convenient-coding/your-choice-original.png">
 <img width="800px" class="img-fluid" src="../img/ui-frameworks-are-worth-the-learning-curve-for-faster-efficient-and-convenient-coding/your-choice-recreation.png">
