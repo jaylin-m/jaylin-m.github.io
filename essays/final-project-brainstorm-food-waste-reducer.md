@@ -9,8 +9,6 @@ labels:
   - Final Project
 ---
 
-<img width="800px" class="img-fluid" src="../img/innovation-at-the-fingertips-1.jpg">
-
 ## Overview
 
 *The problem:* Food waste is a growing issue not only on the UH Manoa Campus but worldwide. A lot of students understand how food waste impacts our environment, but many do not take the initiative to do anything about it. Students often have leftover food from dorm fridges, social events, or meal prepping that ends up getting thrown away. Meanwhile, many students also face food insecurity and could benefit from receiving free or shareable food—if only there were a way to connect the two sides. There's currently no UH-focused system to redistribute food, share extra meals, or even track one's food waste impact in a way that’s fast, safe, and community-centered.
