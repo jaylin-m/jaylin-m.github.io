@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="800px" class="img-fluid" src="../img/from-chaos-to-clarity-the-essential-role-of-coding-standards/ESLint.png">
+<img width="800px" class="img-fluid" src="../img/an-intelligent-assistant-ai’s-role-in-my-software-engineering-journey/AI 3.png">
 
 ## Introduction
 
